@@ -82,6 +82,12 @@ build CMakeFiles/week8.dir/N6.c.o: C_COMPILER__week8_Debug /Users/kimgyeong-yeon
   OBJECT_DIR = CMakeFiles/week8.dir
   OBJECT_FILE_DIR = CMakeFiles/week8.dir
 
+build CMakeFiles/week8.dir/Total.c.o: C_COMPILER__week8_Debug /Users/kimgyeong-yeon/CLionProjects/CProgramming/week8/Total.c || cmake_object_order_depends_target_week8
+  DEP_FILE = CMakeFiles/week8.dir/Total.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/week8.dir
+  OBJECT_FILE_DIR = CMakeFiles/week8.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target week8
@@ -90,7 +96,7 @@ build CMakeFiles/week8.dir/N6.c.o: C_COMPILER__week8_Debug /Users/kimgyeong-yeon
 #############################################
 # Link the executable week8
 
-build week8: C_EXECUTABLE_LINKER__week8_Debug CMakeFiles/week8.dir/N1.c.o CMakeFiles/week8.dir/N2.c.o CMakeFiles/week8.dir/N3.c.o CMakeFiles/week8.dir/N4.c.o CMakeFiles/week8.dir/N5.c.o CMakeFiles/week8.dir/N6.c.o
+build week8: C_EXECUTABLE_LINKER__week8_Debug CMakeFiles/week8.dir/N1.c.o CMakeFiles/week8.dir/N2.c.o CMakeFiles/week8.dir/N3.c.o CMakeFiles/week8.dir/N4.c.o CMakeFiles/week8.dir/N5.c.o CMakeFiles/week8.dir/N6.c.o CMakeFiles/week8.dir/Total.c.o
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/week8.dir
   POST_BUILD = :
